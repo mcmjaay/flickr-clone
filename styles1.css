@@ -1,0 +1,54 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 150px;
+}
+
+
+  /* Height for devices larger than 576px */
+  @media (min-width: 992px) {
+    #intro {
+      margin-top: -58.59px;
+    }
+  }
+
+  .navbar .nav-link {
+    color: black !important;
+    max-width: 200px;;
+  }
+  body, html {
+    height: 100%;
+  }
+  
+  body {
+    /* The image used */
+    background-image: url("https://mdbootstrap.com/img/new/fluid/city/018.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  button {
+    height: min-content;
+    width: max-content;
+  }
+  .btn-primary {
+    height: 10%;
+  }
+  #title {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .search {
+    align-items: center;
+  }
+  h6 {
+    font-size: 8pt;
+  }
